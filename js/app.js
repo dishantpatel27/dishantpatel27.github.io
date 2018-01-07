@@ -49,6 +49,7 @@
             function ($scope, $http) {
                 $scope.options = {
                     url: url,
+                    access_token:"Master Token",
                     api_passoword: "e90addd74faae4dec804791bbba2814a72dea915e5be8221cbab2cb449f0d560"
                 };
                 if (!isOnGitHub) {
