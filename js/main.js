@@ -18,7 +18,8 @@ $(function () {
     $('#fileupload').fileupload({
         // Uncomment the following to send cross-domain cookies:
         //xhrFields: {withCredentials: true},
-        url: 'https://upload.wistia.com'
+        url: 'https://upload.wistia.com',
+        api_passoword: "e90addd74faae4dec804791bbba2814a72dea915e5be8221cbab2cb449f0d560"
     });
 
     // Enable iframe cross-domain access via redirect option:
