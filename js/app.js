@@ -48,7 +48,8 @@
             '$scope', '$http', '$filter', '$window',
             function ($scope, $http) {
                 $scope.options = {
-                    url: url
+                    url: url,
+                    api_passoword: "e90addd74faae4dec804791bbba2814a72dea915e5be8221cbab2cb449f0d560"
                 };
                 if (!isOnGitHub) {
                     $scope.loadingFiles = true;
